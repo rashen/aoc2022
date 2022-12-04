@@ -74,13 +74,16 @@ mod tests {
 
     fn get_test_input() -> Vec<String> {
         vec![
-            "vJrwpWtwJgWrhcsFMMfFFhFp".to_string(),
-            "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL".to_string(),
-            "PmmdzqPrVvPwwTWBwg".to_string(),
-            "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn".to_string(),
-            "ttgJtRGJQctTZtZT".to_string(),
-            "CrZsJsPPZsGzwwsLwLmpwMDw".to_string(),
+            "vJrwpWtwJgWrhcsFMMfFFhFp",
+            "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
+            "PmmdzqPrVvPwwTWBwg",
+            "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn",
+            "ttgJtRGJQctTZtZT",
+            "CrZsJsPPZsGzwwsLwLmpwMDw",
         ]
+        .iter()
+        .map(|s| s.to_string())
+        .collect()
     }
 
     #[test]
